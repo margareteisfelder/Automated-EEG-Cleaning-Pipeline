@@ -7,7 +7,7 @@ Automated pipeline in EEGLab for the batch processing of EEG datasets that filte
 3. Remove bad channels and re-common average references dataset for significant noise reduction with PREP Pipeline [1] ​
 4. Remove line noise at 50/60 Hz with Zapline toolbox ​
 5. Run independent component analysis (ICA) with AAR of EOG and EMG using blind source separation (BSS) ​
-6. Artifact/channel rejection using Artifact Subspace Recognition (ASR) algorithm starting threshold 10 with goal of retaining >25% of total data (ex. 30 seconds of usable data from a low quality 2-minute recording)​
+6. Artifact/channel rejection using Artifact Subspace Recognition (ASR) algorithm
 7. Perform Welch's FFT with outputted data
 8. Apply FOOOF algorithm to extract aperiodic and periodic components of spectrum and spectral exponent [2] 
   
