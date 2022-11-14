@@ -12,16 +12,17 @@ Automated pipeline in EEGLab for the batch processing of EEG datasets that filte
 8. Apply FOOOF algorithm to extract aperiodic and periodic components of spectrum and spectral exponent [2] 
 
 ## Resources
-Loading .eeg files:
+- Loading .eeg files:
 https://github.com/arnodelorme/bva-io/blob/master/pop_loadbv.m 
-Zapline Toolbox:
+- Zapline Toolbox:
 https://github.com/MariusKlug/zapline-plus/wiki/Zapline-plus-user-guide#using-the-tool
-List of EEGLab Plugins:
+- List of EEGLab Plugins:
 https://sccn.ucsd.edu/eeglab/plugin_uploader/plugin_list_all.php
-FOOOF Overview and Tools: 
+- FOOOF Overview: 
 https://fooof-tools.github.io/fooof/
+- FOOOF Tutorials:
 https://fooof-tools.github.io/fooof/generated/fooof.FOOOF.html#fooof.FOOOF.plot
-Prep Pipeline: 
+- Prep Pipeline: 
 https://github.com/VisLab/EEG-Clean-Tools
 
 ## References
