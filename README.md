@@ -1,6 +1,8 @@
 # Automated-EEG-Cleaning-Pipeline
 Automated pipeline in EEGLab for the batch processing of EEG datasets that filters and removes noisy channels and EOG, EMG, and EKG artifacts, as well as extracts spectral characteristics from all channels. 
 
+See "Tutorial" page for step-by-step instructions. 
+
 ## Pipeline Structure 
 1. Load raw datasets into Matlab and save in EEGLab toolbox​
 2. High-pass filter data at 0.1 Hz​
