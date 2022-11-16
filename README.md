@@ -29,12 +29,16 @@ Prior to initiating steps 1-3, update purple coded file/folder locations to matc
 
 ### Step 2 - EEG Preprocessing Steps  
 1. Press "Run" at start of section
-   - Specific parameters throughout section may be customized. See instructions within code and "Resources" section below for help
+   - Specific parameters throughout the section may be customized prior to running. See instructions within code and "Resources" section below for help
 
-
+   Individual cleaned spectra are saved to .csv file in output folder 
+  
 
 ### Step 3 - FOOOF
+1. Ensure "pythonwrap.py" is open and added to path for FOOOF to run
+2. Press "Run" at start of section
 
+   Spectral characteristics from batch will be saved as a single .csv file in output folder
 
 ## Resources
 - Loading .eeg files:
