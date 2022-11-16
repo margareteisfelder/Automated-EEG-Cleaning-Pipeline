@@ -1,7 +1,7 @@
 # Automated-EEG-Cleaning-Pipeline
 Automated pipeline in EEGLab for the batch processing of EEG datasets that filters and removes noisy channels and EOG, EMG, and EKG artifacts, as well as extracts spectral characteristics from all channels. 
 
-See "Tutorial" page for step-by-step instructions. 
+See "Tutorial" section for step-by-step instructions. 
 
 ## Pipeline Structure 
 1. Load raw datasets into Matlab and save in EEGLab toolbox​
@@ -12,6 +12,29 @@ See "Tutorial" page for step-by-step instructions.
 6. Artifact/channel rejection using Artifact Subspace Recognition (ASR) algorithm
 7. Perform Welch's FFT with outputted data
 8. Apply FOOOF algorithm to extract aperiodic and periodic components of spectrum and spectral exponent [2] 
+
+## Tutorial
+Prior to initiating steps 1-3, update purple coded file/folder locations to match individual settings
+
+### Step 1 - Load Dataset 
+1. Select section of code to run depending on raw data file type of choice. Several options are included for example, but a new section may be created from outline
+2. Press "Run" at start of section and follow prompts to input batch of data files into the EEGLab interface 
+
+   Follow prompts to...
+   - Choose "Number of Participants" in the batch (must be 2+)
+   - Downsample all datasets to a common sample rate, regardless of initial SR
+   - Select "Outputted" data folder to store clean datasets and results
+   - Select "Raw Data Folder" containing all input data files for batch 
+   - Individually select each file and provide subject name 
+
+### Step 2 - EEG Preprocessing Steps  
+1. Press "Run" at start of section
+   - Specific parameters throughout section may be customized. See instructions within code and "Resources" section below for help
+
+
+
+### Step 3 - FOOOF
+
 
 ## Resources
 - Loading .eeg files:
